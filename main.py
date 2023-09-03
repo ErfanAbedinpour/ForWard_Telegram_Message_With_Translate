@@ -8,10 +8,13 @@ import socks
 '''Create Bot With Api Hash And Api Id '''
 '''Take Api From Telegram WebSite Develooper Tab'''
 
-api_hash = '97d9e48d1a8bc978886b0fde696ffcff'
-api_id = 13182989
+api_hash = 'Api_hash'
+api_id = 'Api_id'
+
+'''This allows me to write the functions in another folder '''
+
 File = dict(root='Functions')
-bot = Client('erfan', api_id , api_hash,plugins=File)
+bot = Client('Name', api_id , api_hash,plugins=File)
 
 
 bot.run()
